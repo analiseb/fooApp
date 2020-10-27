@@ -6,7 +6,7 @@ Created on Sun Oct 25 20:57:23 2020
 """
 from flask import abort, jsonify, redirect, render_template
 from flask import request, url_for, login_required
-from forms import ProductForm
+from .forms import ProductForm
 
 import json
 
